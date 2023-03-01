@@ -1,4 +1,5 @@
 import numpy as np
+from numba import njit, int64, double
 import math
 
 def gauss_hermite(n):
